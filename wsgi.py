@@ -24,6 +24,6 @@ def  submit_form():
             write_csv(data)
             return redirect('/thank.html')
         except:
-            return 'did not save''
+            return 'did not save'
     else:
         return 'WRONG'
